@@ -1,4 +1,4 @@
-# Student Well-being Data Generator
+# Simulated Student Well-being Data Generator
 
 **Version 1.0**
 ### Creator: Juhani Merilehto - @juhanimerilehto - Jyväskylä University of Applied Sciences (JAMK), Likes institute
@@ -45,8 +45,8 @@ Student Well-being Data Generator is a Python-based tool for creating realistic 
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/juhanimerilehto/student-wellbeing-generator.git
-cd student-wellbeing-generator
+git clone https://github.com/juhanimerilehto/simulated-quantitative-data-generator.git
+cd simulated-quantitative-data-generator
 ```
 
 ### 2. Create a virtual environment:
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 Basic usage:
 ```bash
-python generate_data.py
+python excel-data-generator.py
 ```
 
 The script will create an Excel file named 'student_wellbeing_dataset.xlsx' with three sheets:
@@ -105,7 +105,7 @@ The generated dataset includes:
 ## File Structure
 
 ```plaintext
-student-wellbeing-generator/
+simulated-quantitative-data-generator/
 ├── assets/
 │   └── likes_str_logo.png
 ├── excel-data-generator.py
